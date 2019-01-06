@@ -1,5 +1,5 @@
-# SimpleShell
-A simple shell written in C
+# Shell
+A shell written in C using execl()
 
 
 Firstly, we take the command as input and execute it in a new process with execl(). We write a function for this, which is run(). It takes the args array, background flag, which controls whether a process is background or not, and backgroundpid array, that stores the background processes’ pids, into it.
